@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+    <script src="js/ajax.js" type="text/javascript"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+    <title>Сайт</title>
+</head>
+<body>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-12" >
+
+            <div class="panel panel-primary width-setting">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Авторизация в системе</h3>
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 error_class">
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 login-box">
+                            <form role="form" action="index.php" method="post">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Ваш email" required autofocus />
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Ваш пароль" required />
+                                </div>
+                                <p>
+                                    <a href="#">Забыли свой пароль?</a></p>
+                                У вас нет аккаунта? <a href="#">Подача заявки</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="Remember">
+                                    Запомнить меня
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7">
+                            <button type="submit" class="btn btn-labeled btn-success" name="submit" value="add" id="log_but">
+                                <span class="btn-label"><i class="glyphicon glyphicon-ok"></i></span>Войти</button>
+                            <button type="reset" class="btn btn-labeled btn-danger" id="reset_but">
+                                <span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span>Сбросить</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+a. a:hover{  text-decoration: none;  }
+
+ul,li{ list-style: none;}
+.width-setting{
+width: 490px;
+}
+.bg-danger{
+    border-left: 3px solid #a53f51;
+    font-size: 17px;
+
+    font-style: inherit;
+    font-weight: 500;
+    font-variant: full-width;
+    color: #8e2851;
+    width: 460px;
+    border-radius: 3px;
+    padding: 20px 30px 40px 20px;
+}
+
+
+
+/* bootstrap form style*/
+
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.input-group { margin-bottom:10px; }
+.separator { border-right: 1px solid #dfdfe0; }
+
+
+/*----------------------*/
+
+
